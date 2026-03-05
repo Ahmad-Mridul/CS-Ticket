@@ -15,9 +15,11 @@ here initial value of count is 0. and later on we can change the state if count 
 ### How is event handling done in React?
 using onClick in JSX.
 
+onClick = {eventHandler}
+
 const eventHandler = () => {
     ........
 }
 
-onClick = {eventHandler}
+
 
