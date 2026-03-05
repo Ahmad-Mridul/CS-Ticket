@@ -3,12 +3,12 @@ const BannerCard = ({title, style, selectedTickets}) => {
         <div className={`relative w-full overflow-hidden md:h-48 h-30 flex justify-center items-center rounded-xl 
                 bg-linear-to-r  text-white ${style}`}>
             <img
-                src="../../vector1.png"
+                src="/vector1.png"
                 alt="vector"
                 className="absolute right-0  "
             />
             <img
-                src="../../vector1.png"
+                src="/vector1.png"
                 alt="vector"
                 className="absolute left-0"
             />

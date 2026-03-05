@@ -1,4 +1,4 @@
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareFacebook, FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -41,11 +41,8 @@ const Footer = () => {
                                 <FaSquareXTwitter className=""/><a href="/" className="text-gray ">@CS — Ticket System</a>
                             </div>
                             <div className="flex items-center justify-center hover:text-white">
-                                <FaSquareXTwitter className=""/><a href="/" className="text-gray ">@CS — Ticket System</a>
+                                <FaSquareFacebook className=""/><a href="/" className="text-gray ">@CS — Ticket System</a>
                             </div>
-                            <a href="/" className="text-gray hover:text-white">@CS — Ticket System</a>
-                            <a href="/" className="text-gray hover:text-white">@CS — Ticket System</a>
-                            <a href="/" className="text-gray hover:text-white">@CS — Ticket System</a>
                         </div>
                     </div>
                 </div>
