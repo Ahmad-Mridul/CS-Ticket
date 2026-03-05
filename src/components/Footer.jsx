@@ -1,4 +1,4 @@
-import { FaSquareFacebook, FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareFacebook, FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -42,6 +42,9 @@ const Footer = () => {
                             </div>
                             <div className="flex items-center justify-center hover:text-white">
                                 <FaSquareFacebook className=""/><a href="/" className="text-gray ">@CS — Ticket System</a>
+                            </div>
+                            <div className="flex items-center justify-center hover:text-white">
+                                <FaSquareInstagram className=""/><a href="/" className="text-gray ">@CS — Ticket System</a>
                             </div>
                         </div>
                     </div>
